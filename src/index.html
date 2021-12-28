@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/css/index.min.css">
+    <title>Resume</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a href="#" class="header__nav-icon"><img width="86" height="32" src="./icon/newIConRS.png" alt="logo"> </a>
+                <ul class="header__nav-menu">
+                    <li class="header__nav-menu-item"><a href="">Home</a></li>
+                    <li class="header__nav-menu-item"><a href="#contacts">Contacts</a></li>
+                    <li class="header__nav-menu-item"><a href="">Skills</a></li>
+                    <li class="header__nav-menu-item"><a href="">Code Example</a></li>
+                    <li class="header__nav-menu-item"><a href="">Course</a></li>
+                    <li class="header__nav-menu-item"><a href="">My Project</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <section class="about">
+            <div class="container">
+            <div class="about__wrapper">
+            <img src="./img/myphoto.jpg" alt="photo" class="about__img" width="400">
+
+            <div class="about__info">
+                <h1 class="about__info-title">
+           About me
+                </h1>
+                <h2 class="about__info-person">Kuban Imanaliev</h2>
+                <div class="about__info-profession">Frontend Developer</div>
+
+                <p class="about__info-discription">
+                    I am 38 years old. I live in Bishkek. I chose programming because of the profession of the future. You can realize your capabilities. A lot of interesting and informative. I am a team player. I really enjoy doing programming because it's a separate universe. Where you can create and see what you are doing. Learn something new. Be aware of information progress. The frontend gives you the opportunity to see what you are doing. New acquaintances, meetings. I love to develop and help others who are given this area. And in the future I will be the best programmer in my field.
+                </p>
+
+            </div>
+        </div>
+        </div>
+        </section>
+        <div id="contacts" class="contacts">
+             <div class="container">
+                 <div class="wrapper right">
+                      <div class="contacts__rigth">
+                        <h2 class="contacts__title">Contacts</h2>
+                        <ul class="contacts__list">
+                            <li class="contacts__list-item">Location: Bishkek, Kyrgyzstan</li>
+                            <li class="contacts__list-item">Phone: +996555936565</li>
+                            <li class="contacts__list-item">Email: imanaliev.kuban@gmail.com</li>
+                            <li class="contacts__list-item">Telegram: 0555936565</li>
+                            <li class="contacts__list-item">GitHub: </li>
+                            <li class="contacts__list-item">Discord:</li>
+                        </ul>
+                     </div>
+                 </div>
+            </div>
+
+        </div>
+
+        <div class="skills">
+            <div class="container">
+                <div class="wrapper left">
+                      <div class="skills__left">
+                        <h2 class="skills__title">Skills</h2>
+                        <div class="skills__left-items">
+                          <div class="skills__left-item">HTML</div>
+                          <div class="skills__left-item">CSS/SASS</div>
+                          <div class="skills__left-item">JavaScript</div>
+                          <div class="skills__left-item">React</div>
+                          <div class="skills__left-item">TypeScript</div>
+                          <div class="skills__left-item">Git</div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="code">
+            <div class="container">
+                <div class="wrapper right">
+                    <div class="code__right">
+                    <h2 class="code__title">Code Example</h2>
+                    
+                        <pre class="code__example">
+                           
+                           cons arr = async (url) => {
+
+                            const response = await fetch(url);
+ 
+                            if (!res.ok){
+ 
+                               return throw new Error()
+                               
+                            }
+                            return await res.json()
+                         }
+                        </pre>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="course">
+            <div class="container">
+                <div class="wrapper left">
+                    <div class="course__left">
+                        <h2 class="course__title">Course</h2>
+                        <div class="course__list-title">UDemy.com JS course</div>
+                        <div class="course__list-title">UDemy HTML course</div>
+                        <div class="course__list-title">RS School stage 0</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="https://rs.school/"><img src="./icon/newIConRS.png" width="86" height="32" alt="logors"></a>
+                <div class="footer__title">2021</div>
+                <a href="https://github.com/KubanImanaliev"><img src="./icon/download.png" width="32" height="32" alt="github"></a>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #14191C;
+    z-index: 2;
+    &__nav{
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-menu{
+            display: flex;
+            justify-content: space-between;
+            width: 600px;
+            &-item{
+                list-style-type: none;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                
+            }
+        }
+
+    }
+}
+.about {
+    color: #fff;
+}
