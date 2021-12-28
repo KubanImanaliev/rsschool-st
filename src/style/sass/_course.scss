@@ -1,0 +1,36 @@
+.course{
+    &__left{
+        width: 502px;
+        border-right: 4px solid #fff;
+        padding-right: 36px;
+        text-align: right;
+       
+    }
+    &__title{
+        position: relative;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        z-index: 1;
+        &:before{
+            content:"";
+            position: absolute;
+            width: 23px;
+            height: 23px;
+            background: #0095B7;
+            border: 3px solid #fff;;
+            border-radius:100%;
+            top:0px;
+            right: -53px;
+            z-index: -1;
+        }
+        
+    }
+    &__list-title{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+            
+    }
+}

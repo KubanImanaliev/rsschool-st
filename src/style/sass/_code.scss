@@ -1,0 +1,41 @@
+.code{
+    &__title{
+        position: relative;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        z-index: 1;
+        &:before{
+            content:"";
+            position: absolute;
+            width: 23px;
+            height: 23px;
+            background: #FF7F00;
+            border: 3px solid #fff;;
+            border-radius:100%;
+            top:0px;
+            left: -53px;
+            z-index: -1;
+
+        }
+        
+    }
+    
+    
+   
+    &__right{
+        
+      width: 497px;
+      padding-left: 36px;
+      border-left: 4px solid #fff;
+      
+}
+    &__example{
+        color: #FFFFFF;
+        font-size: 21px;
+        line-height: 20px;
+        padding: 0;
+    }
+    
+}

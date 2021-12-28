@@ -1,0 +1,43 @@
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    &__info{
+        width: 500px;
+        &-title{
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 40px;
+            color: #FFFFFF;
+        }
+        &-person{
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 32px;
+            text-align: right;
+            color: #FFFFFF;
+            margin-top: 20px;
+            }
+        &-profession{
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 32px;
+            color: #FFFFFF;
+            margin-top: 20px;
+        }
+        &-discription{
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 20px;
+            color: #FFFFFF;
+            margin-top: 20px;
+        }
+
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+}
